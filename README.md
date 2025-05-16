@@ -7,15 +7,11 @@ This repository contains an AWS CloudFormation template (`vpc.yaml`) to create a
 **Filename:** `vpc.yaml`  
 **Format Version:** `2010-09-09`  
 **Description:**  
-This CloudFormation template provisions an Amazon VPC with essential components such as subnets, route tables, and internet gateway (depending on your template details). It provides a foundational networking layer for your AWS resources.
+This CloudFormation template provisions an Amazon VPC . It provides a foundational networking layer for your AWS resources.
 
 ## Resources Created (Typical)
 
 - **VPC**: A logically isolated virtual network in AWS.
-- **Subnets**: One or more subnets within the VPC.
-- **Internet Gateway**: To enable internet access for the VPC.
-- **Route Tables**: Routing rules for subnet traffic.
-- **Security Groups / Network ACLs** (if defined).
 
 *Note: The exact resources may vary depending on the template configuration.*
 
